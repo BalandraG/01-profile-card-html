@@ -44,12 +44,32 @@ ul {
   margin: 16px 0 0;
 }
 
-li {
-  margin: 8px 0;
+.site-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-a {
+.site-list li {
+  margin: 0;
+}
+
+.site-list a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
   color: darkblue;
   text-decoration: none;
+  font-size: 14px;
+}
+
+.site-list img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+  margin: 0;
 }
 
